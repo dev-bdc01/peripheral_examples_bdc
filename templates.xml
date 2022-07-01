@@ -20834,6 +20834,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/burtc/burtc_em4_buram/SimplicityStudio/BRD4263B_EFR32FG23_burtc_em4_buram.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 BURTC EM4 Buram" description="This project uses the BURTC (Backup Real Time Counter) to wake the device from EM4 mode and thus trigger a reset. This project also shows how to use the BURAM retention registers to have data persist between resets. The number of resets  triggered by the BURTC will p...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_burtc_em4_buram"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="BURTC"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/burtc/burtc_em4_buram/SimplicityStudio/BRD4265B_EFR32FG23_burtc_em4_buram.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4180A EFR32MG21 LFRCO CAL Interrupt" description="The device is initialized for the board it is running on, and the qualified LFRCO is output to a pin where it can be observed.  The calibration mechanism is setup, and a calibration run is started. ">
     <properties key="core.boardCompatibility" value="brd4180a"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg21.*"/>
@@ -20933,6 +20942,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em01_voltage_scaling/SimplicityStudio/BRD4263B_EFR32FG23_em01_voltage_scaling.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM01 Voltage Scaling" description="This project demonstrates the use of EM0/EM1 voltage scaling on Series 2 EFR32 devices.  Note that this differs from the voltage scaling functionality on Series 1 devices where a single setting (VS2 or VS0) applies in all operating modes.  For Series 2 devices, separ...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em01_voltage_scaling"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em01_voltage_scaling/SimplicityStudio/BRD4265B_EFR32FG23_em01_voltage_scaling.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EM0 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM1 Energy Mode. ">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -20951,6 +20969,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em0_dcdc/SimplicityStudio/BRD4263B_EFR32FG23_em0_dcdc.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM0 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM1 Energy Mode. ">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em0_dcdc"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em0_dcdc/SimplicityStudio/BRD4265B_EFR32FG23_em0_dcdc.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EM1 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM1 Energy Mode. ">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -20968,6 +20995,15 @@
     <properties key="template.category" value="EMU"/>
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em1_dcdc/SimplicityStudio/BRD4263B_EFR32FG23_em1_dcdc.slsproj"/>
+  </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM1 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM1 Energy Mode. ">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em1_dcdc"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em1_dcdc/SimplicityStudio/BRD4265B_EFR32FG23_em1_dcdc.slsproj"/>
   </descriptors>
   <descriptors label="Platform - BRD4182A EFR32MG22 EM23 Voltage Scaling" description="This project demonstrates the use of EM2/EM3 voltage scaling on Series 2 EFR32 devices.  Note that this differs from the voltage scaling functionality on Series 1 devices where a single setting (VS2 or VS0) applies in all operating modes.  For Series 2 devices, separ...">
     <properties key="core.boardCompatibility" value="brd4182a"/>
@@ -20996,6 +21032,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em23_voltage_scaling/SimplicityStudio/BRD4263B_EFR32FG23_em23_voltage_scaling.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM23 Voltage Scaling" description="This project demonstrates the use of EM2/EM3 voltage scaling on Series 2 EFR32 devices.  Note that this differs from the voltage scaling functionality on Series 1 devices where a single setting (VS2 or VS0) applies in all operating modes.  For Series 2 devices, separ...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em23_voltage_scaling"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em23_voltage_scaling/SimplicityStudio/BRD4265B_EFR32FG23_em23_voltage_scaling.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EM2 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM2 Energy Mode. ">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -21013,6 +21058,15 @@
     <properties key="template.category" value="EMU"/>
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em2_dcdc/SimplicityStudio/BRD4263B_EFR32FG23_em2_dcdc.slsproj"/>
+  </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM2 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM2 Energy Mode. ">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em2_dcdc"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em2_dcdc/SimplicityStudio/BRD4265B_EFR32FG23_em2_dcdc.slsproj"/>
   </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EM3 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM3 Energy Mode. ">
     <properties key="core.boardCompatibility" value="brd4186c"/>
@@ -21032,6 +21086,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em3_dcdc/SimplicityStudio/BRD4263B_EFR32FG23_em3_dcdc.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM3 DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM3 Energy Mode. ">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em3_dcdc"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em3_dcdc/SimplicityStudio/BRD4265B_EFR32FG23_em3_dcdc.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EM4 No DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM4 Energy Mode. ">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -21049,6 +21112,15 @@
     <properties key="template.category" value="EMU"/>
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/emu/em4_no_dcdc/SimplicityStudio/BRD4263B_EFR32FG23_em4_no_dcdc.slsproj"/>
+  </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EM4 No DCDC" description="This project demonstrates the demonstrates datasheet current consumption  configuration and current consumption numbers in EM4 Energy Mode. ">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_em4_no_dcdc"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EMU"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/emu/em4_no_dcdc/SimplicityStudio/BRD4265B_EFR32FG23_em4_no_dcdc.slsproj"/>
   </descriptors>
   <descriptors label="Platform - BRD4182A EFR32MG22 EUART Echo" description="This project demonstrates interrupt-drive operation of the EUART.  EUART0 is  configured for asynchronous operation at 115200 baud with 8 data bits,  no  parity, and one stop bit (115200N81). The main loop waits until 80 characters  or a carriage return are received ...">
     <properties key="core.boardCompatibility" value="brd4182a"/>
@@ -21095,6 +21167,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/eusart/async_autobaud/SimplicityStudio/BRD4263B_EFR32FG23_eusart_async_autobaud.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EUSART Async Autobaud" description="This project demonstrates interrupt-driven EUSART operation in asynchronous mode with automatic baud rate detection.  EUSART1 is configured for 8 data bits, no parity, and one stop bit.  Setting init.baudrate = 0 in the structure of type EUSART_UartInit_TypeDef instr...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_eusart_async_autobaud"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EUSART"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/eusart/async_autobaud/SimplicityStudio/BRD4265B_EFR32FG23_eusart_async_autobaud.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EUSART Async DMA EM2" description="This project demonstrates low-frequency operation of EUSART0 using LDMA to receive inbound data and transmit outbound data while remaining in EM2. Note that EUSART0 is used because it supports operation in EM2 from a low-frequency operation.  Other EUSARTs are limite...">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -21112,6 +21193,15 @@
     <properties key="template.category" value="EUSART"/>
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/eusart/async_dma_em2/SimplicityStudio/BRD4263B_EFR32FG23_eusart_async_dma_em2.slsproj"/>
+  </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EUSART Async DMA EM2" description="This project demonstrates low-frequency operation of EUSART0 using LDMA to receive inbound data and transmit outbound data while remaining in EM2. Note that EUSART0 is used because it supports operation in EM2 from a low-frequency operation.  Other EUSARTs are limite...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_eusart_async_dma_em2"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EUSART"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/eusart/async_dma_em2/SimplicityStudio/BRD4265B_EFR32FG23_eusart_async_dma_em2.slsproj"/>
   </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EUSART Async Half Duplex" description="This project demonstrates operation of the EUSART in a half-duplex, single link configuration.  One wire is used to communicate between the EUSARTs on two different devices such that only one device can be transmitting at any given time.  This entails the EUSART on o...">
     <properties key="core.boardCompatibility" value="brd4186c"/>
@@ -21131,6 +21221,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/eusart/async_half_duplex/SimplicityStudio/BRD4263B_EFR32FG23_eusart_async_half_duplex.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EUSART Async Half Duplex" description="This project demonstrates operation of the EUSART in a half-duplex, single link configuration.  One wire is used to communicate between the EUSARTs on two different devices such that only one device can be transmitting at any given time.  This entails the EUSART on o...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_eusart_async_half_duplex"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EUSART"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/eusart/async_half_duplex/SimplicityStudio/BRD4265B_EFR32FG23_eusart_async_half_duplex.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EUSART Async Interrupt" description="This project demonstrates interrupt-driven operation of the EUSART in asynchronous mode.  EUSART1 is configured for asynchronous operation at 115200 baud with 8 data bits, no parity, and one stop bit (115200N81). The main loop waits until 80 characters or a carriage ...">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -21149,6 +21248,15 @@
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/eusart/async_interrupt/SimplicityStudio/BRD4263B_EFR32FG23_eusart_async_interrupt.slsproj"/>
   </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EUSART Async Interrupt" description="This project demonstrates interrupt-driven operation of the EUSART in asynchronous mode.  EUSART1 is configured for asynchronous operation at 115200 baud with 8 data bits, no parity, and one stop bit (115200N81). The main loop waits until 80 characters or a carriage ...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_eusart_async_interrupt"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EUSART"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/eusart/async_interrupt/SimplicityStudio/BRD4265B_EFR32FG23_eusart_async_interrupt.slsproj"/>
+  </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EUSART Async Polled" description="This project demonstrates polled operation of the EUSART in asynchronous mode.  EUSART1 is configured for asynchronous operation at 115200 baud with 8 data bits, no parity, and one stop bit (115200N81).  The main loop waits until 80 characters or a carriage return ar...">
     <properties key="core.boardCompatibility" value="brd4186c"/>
     <properties key="core.partCompatibility" value="mcu.arm.efr32.mg24.*"/>
@@ -21166,6 +21274,15 @@
     <properties key="template.category" value="EUSART"/>
     <properties key="template.initiallyOpenedResource" value="readme.txt"/>
     <properties key="template.projectFilePaths" value="series2/eusart/async_polled/SimplicityStudio/BRD4263B_EFR32FG23_eusart_async_polled.slsproj"/>
+  </descriptors>
+  <descriptors label="Platform - BRD4265B EFR32FG23 EUSART Async Polled" description="This project demonstrates polled operation of the EUSART in asynchronous mode.  EUSART1 is configured for asynchronous operation at 115200 baud with 8 data bits, no parity, and one stop bit (115200N81).  The main loop waits until 80 characters or a carriage return ar...">
+    <properties key="core.boardCompatibility" value="brd4265b"/>
+    <properties key="core.partCompatibility" value="mcu.arm.efr32.fg23.*"/>
+    <properties key="defaultName" value="BRD4265B_EFR32FG23_eusart_async_polled"/>
+    <properties key="quality" value="Evaluation"/>
+    <properties key="template.category" value="EUSART"/>
+    <properties key="template.initiallyOpenedResource" value="readme.txt"/>
+    <properties key="template.projectFilePaths" value="series2/eusart/async_polled/SimplicityStudio/BRD4265B_EFR32FG23_eusart_async_polled.slsproj"/>
   </descriptors>
   <descriptors label="Platform - BRD4186C EFR32MG24 EUSART SPI Main DMA" description="This project demonstrates DMA-driven operation of the EUSART in synchronous main (formerly master) mode.  EUSART1 is configured for SPI-compatible operation at 1 Mbps.  Compatibility with the Synchronous Peripheral Interface standard implies a word size of 8 data bit...">
     <properties key="core.boardCompatibility" value="brd4186c"/>
